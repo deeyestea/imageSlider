@@ -7,7 +7,7 @@ const ImageCarosel = () => {
     let box = document.querySelector('.product-container')
 
     const btnPressPrev = () => {
-        let width = box.clientWidth;
+        let width = box.clientWidth; //comment
         box.scrollLeft = box.scrollLeft - width;
     }
 
