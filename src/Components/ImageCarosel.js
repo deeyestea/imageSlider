@@ -9,7 +9,7 @@ const ImageCarosel = () => {
     const btnPressPrev = () => {
         let width = box.clientWidth; //comment
         box.scrollLeft = box.scrollLeft - width;
-    }
+    } //logic comment
 
     const btnPressNext = () => {
         let width = box.clientWidth;
